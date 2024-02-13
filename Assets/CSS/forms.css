@@ -20,6 +20,8 @@ body {
 }
 
 .college-info {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -27,21 +29,15 @@ body {
   flex-basis: 40%;
 }
 
-.college-info h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-
 .college-info p {
-  font-size: 1.5rem;
   margin: 0;
+  font-weight: bold;
 }
 
 .csda {
   margin-top: 15px;
-  height: 170px;
-  width: 170px;
+  height: 130px;
+  width: 130px;
   background-image: url(../Logos/association_logo-removebg-preview.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -55,8 +51,8 @@ body {
   margin: 0px;
 }
 .cdcc {
-  height: 130px;
-  width: 130px;
+  height: 100px;
+  width: 100px;
   background-image: url(../Logos/Coding\ club.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -69,19 +65,20 @@ body {
 }
 
 .center-heading {
-  text-align: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 0px;
-  padding: 0%;
 }
 
 .center-heading h1 {
   font-family: "Playfair Display", serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
   color: #6c4a19;
   margin-top: 0px;
   height: 100%;
+  text-align: center;
 }
 
 .center-heading h2 {
@@ -106,7 +103,7 @@ body {
 
 .btn {
   display: block;
-  padding: 15px 30px;
+  padding: 10px 20px;
   border: 2px solid #6c4a19;
   /*font-weight: bold;*/
   font-family: "Playfair Display", serif;
@@ -162,7 +159,7 @@ body {
   }
 
   .college-info p {
-    font-size: 1rem;
+    font-size: 13px;
     margin: 0;
   }
 
@@ -178,23 +175,26 @@ body {
     width: 100px;
   }
   .nexo {
-    margin-left: -10px;
     height: 70px;
     width: 200px;
     align-items: center;
     flex-direction: row;
     justify-content: center;
     display: flex;
+    margin-top: 5%;
   }
   .logo-container {
-    height: 100px;
+    max-height: 100%;
     width: 100%;
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .center-heading {
+    display: flex;
+    flex-direction: column;
+  }
   .center-heading h1 {
-    font-size: 36px;
+    font-size: 20px;
   }
 
   .center-heading h2 {
