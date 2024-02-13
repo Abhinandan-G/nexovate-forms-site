@@ -201,6 +201,9 @@ body {
     font-size: 32px;
   }
 
+  .resp {
+    display: none;
+  }
   .arrange {
     display: flex;
     flex-direction: column;
